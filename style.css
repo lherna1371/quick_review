@@ -2,16 +2,29 @@
 
 
 /* 1 */
-/* align header (h1) to center  */
-
+/* align header (h2) to center  */
+.page-title {
+    text-align: center;
+}
 
 /* 2 */
 /* set the image width to 100% to take full width of parent */
 
+.card-img {
+    width: 100%;
+}
+
 
 /* 3 */
 /* select the header (h2) for education and set to blue */
-
+.education-h {
+    color: blue;
+}
 
 /* 4 */
 /* remove the bullets from the list items and fix the padding on the right to center the text  */
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
